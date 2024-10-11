@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    min-width: 1000px;
+}
+body{
+    background-color: rgb(15, 6, 31);
+}
+.menu_bar{
+    color:aqua;
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color:aqua;
+}
+nav{
+    height: 80px;
+    display: flex;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+}
+
+.left{
+    color: aqua;
+    padding: 10px;
+    padding-top: 25px;
+    position: absolute;
+    left: 10%;
+    font-size: 2rem;
+}
+.right{
+    position:absolute;
+    right: 10%;
+    display: flex;
+}
+.list{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+}
+li{
+    padding: 40px;
+}
+#bar{
+    padding: 16px;
+    padding-top: 41px;
+}
+#bar1{
+    padding: 39px;
+    padding-left: 45px;
+}
+.first_page{
+    height: 100vh;
+    position: sticky;
+    background-image: url("vegeta-ultra-ego.3840x2160.mp4");
+    top: 0;
+}
+.home{
+    height: 92vh;
+    background-image: url("vegeta-ultra-ego.3840x2160.mp4");
+    background-size: cover;
+    z-index: 2;
+}
+#vd {
+    margin:-100px;
+    position: fixed;
+    right: 0%;
+    height: 120vh;
+    z-index: 0;
+    pointer-events: none;
+}
+@keyframes fade {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}
+.welcome{
+    position: fixed;
+    top:40%;
+    left:10%;
+    font-size: 1.5rem;
+    z-index: 2;
+    color: aqua;
+    animation: fade 1s ease-in-out forwards;
+}
+.welcome.hii{
+    font-size: 1rem;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transition: 2s ease;
+   
+}
+#w1{
+    animation: fade 1s ease-in-out forwards;
+}
+#w2{
+    animation: fade 2s ease-in-out forwards;
+}
+#w3{
+    animation: fade 3s ease-in-out forwards;
+}
+#wd{
+    color: red;
+}
+#insta{
+    color: aqua;
+    font-size: 50px;
+}
+#git{
+    margin-left: 30px;
+    color: aqua;
+    font-size: 50px; 
+}
+#whats{
+    margin-left: 30px;
+    color: aqua;
+    font-size: 50px;
+}
+.co{
+    display: flex;
+    position: fixed;
+    top:60%;
+    left: 10%;
+    height: 50px;
+    width: 2000px;
+    z-index: 2;
+    animation: fade 4s ease-in-out forwards;
+}
+.about_me{
+    height: 100vh;
+    background-color: black;
+    display: inline;
+    position: sticky;
+    top: 0;
+}
+.main_des{
+    display: flex;
+}
+.des{
+    display: inline-block;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    height:50vh;
+    width: 65vw;
+    padding: 20px;
+    background-color: rgb(21, 9, 43);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+}
+.des_h{
+    color: aqua;
+    height: 50px;
+    width: 100%;
+    border-bottom:2px solid aqua;
+    font-size: 2rem;
+}
+.pic{
+    display: inline-block;
+    margin: 20px;
+    margin-top: 100px;
+    height:49vh;
+    width: 19vw;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(21, 9, 43);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+}
+.connection{
+    margin: 20px;
+    margin-left: 40px;
+    height: 20vh;
+    padding: 20px;
+    width: 90vw;
+    border-radius: 10px;
+    background-color: rgb(21, 9, 43);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+}
+h5{
+    font-size: 2rem;
+}
+.pro{
+    height: 100vh;
+    background-image: url("pic1.webp");
+    background-size: cover;
+    position: sticky;
+    top: 0;
+}
